@@ -1,11 +1,6 @@
 <?php
 require_once "conexion.php";
 class ModeloUsuarios{
-	static public function mdlUsuarios($tabla){
-		$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla ORDER BY id DESC");
-		$stmt -> execute();
-		return $stmt -> fetchAll();
-	}
 	static public function mdlMostrarUsuarios($tabla, $item, $valor){
 		if($item != null){
 			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $item = :$item");
