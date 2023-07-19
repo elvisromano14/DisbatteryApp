@@ -105,7 +105,7 @@
               <div class="form-group row">
                 <label class="control-label col-md-2 col-sm-2 ">Lotes</label>
                 <div class="col-md-9 col-sm-10">
-                  <table id="datatable4" class="table hover data-table-export table-bordered">
+                  <table id="datatable4" class="table hover data-table table-bordered">
                     <thead>
                       <th>Lotes</th>
                       <th>Almacen</th>

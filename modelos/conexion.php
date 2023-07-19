@@ -1,7 +1,8 @@
 <?php
 class Conexion{
 	static public function conectar(){
-		$link = new PDO("mysql:host=192.168.130.116;port:3307;dbname=lblog_34635163_disbattery,lblog_34635163,3y99gypodkn0");
+		$link = new PDO("mysql:host=localhost;dbname=lblog_34635163_disbattery","root","");
+		$link->exec("set names utf8");
 		return $link;
 	}
 }

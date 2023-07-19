@@ -11,7 +11,7 @@ $('document').ready(function(){
 		"lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
 		"language": {
 			"info": "_START_-_END_ of _TOTAL_ entries",
-			searchPlaceholder: "Search",
+			searchPlaceholder: "Busqueda...",
 			paginate: {
 				next: '<i class="ion-chevron-right"></i>',
 				previous: '<i class="ion-chevron-left"></i>'  
@@ -28,7 +28,7 @@ $('document').ready(function(){
 			targets: "datatable-nosort",
 			orderable: false,
 		}],
-		"lengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
+		"lengthMenu": [[10, 25, -1], [10, 25, "All"]],
 		"language": {
 			"info": "_START_-_END_ of _TOTAL_ entries",
 			searchPlaceholder: "Search",

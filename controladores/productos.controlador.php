@@ -26,7 +26,7 @@ class ControladorProductos{
 		return $respuesta;
 	}
 	static public function ctrMostrarProductos(){
-		$tabla = 'vw_productosxlotes';
+		$tabla = 'vw_productos';
 		$respuesta = ModeloProductos::mdlMostrarProductos($tabla);
 		return $respuesta;
 	}
